@@ -1,0 +1,23 @@
+installing NodeJS 10.13.0 version
+https://stackoverflow.com/questions/58856370/gulp-package-task-referenceerror-primordials-is-not-defined
+
+to start project from scratch:
+
+-inside the system
+C:\xampp\htdocs\dashboard\elzero\totFront-EndCourse
+λ npm i gulp@3.9.1 -g
+C:\xampp\htdocs\dashboard\elzero\totFront-EndCourse
+λ npm init
+C:\xampp\htdocs\dashboard\elzero\totFront-EndCourse  (ultimate-course@1.0.0)
+λ cat package.json
+-inside the (local) device
+C:\xampp\htdocs\dashboard\elzero\totFront-EndCourse  (ultimate-course@1.0.0)
+λ npm i gulp@3.9.1 --save-dev
+C:\xampp\htdocs\dashboard\elzero\totFront-EndCourse  (ultimate-course@1.0.0)
+λ gulp -v
+C:\xampp\htdocs\dashboard\elzero\totFront-EndCourse  (ultimate-course@1.0.0)
+λ touch gulpfile.js
+C:\xampp\htdocs\dashboard\elzero\totFront-EndCourse  (ultimate-course@1.0.0)
+λ npm i gulp-concat@2.6.1 gulp-sass@4.0.2 gulp-autoprefixer@6.1.0 gulp-pug@4.0.1 gulp-livereload@4.0.1 gulp-sourcemaps@2.6.5 gulp-minify@3.1.0 --save-dev
+C:\xampp\htdocs\dashboard\elzero\totFront-EndCourse  (ultimate-course@1.0.0)
+λ npm i static-server
